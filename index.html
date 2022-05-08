@@ -48,29 +48,13 @@
         margin: 10px;
         padding: 10px;
         text-align: center;
-hhhhh
-      }
     </style>
   </head>
   <body>   
     <div class="input"><input type="number" /> <button onclick="hello()">submit</button></div>
     <div class="grid"></div>
-    <script>
-      let grid = document.querySelector(".grid");
-      let button = document.querySelector("button");
-      let box2 = document.querySelector(".grid");
-      let input = document.querySelector("input");
-
-      button.onclick = () => {
-        const number = input.value;
-        box2.innerHTML = "";
-        for (i = 1; i <= number; i++) {
-          box2.innerHTML += `<div class='box'>${i}</div>`;
-        }
-      };
-      function hello() {
-        alert("Hello world!")
-      }
+    <script src="script.js">
+    
     </script>
   </body>
 </html>
